@@ -31,7 +31,7 @@
   }
   
   .texts {
-    margin-left: 200px;
+    margin-left: 80px;
   }
   
   .skills {
@@ -90,4 +90,17 @@
   .singleAsideIcon a p i {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+
+  .SocialMedia {
+    width: 80px;
+    margin-left: 70px;
+    font-size: 22px;
+    border-right: 2px solid white;
+  }
+
+
+  .SocialMedia p a {
+    color: white;
   }

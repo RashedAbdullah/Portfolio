@@ -5,6 +5,16 @@ const HeroArea = () => {
   return (
     <div className='HeroBox'>
         <div className='Hero'>
+
+            <div className='SocialMedia'>
+                <p><a href=""><i class="fa-brands fa-github"></i></a></p>
+                <p><a href=""><i class="fa-brands fa-linkedin"></i></a></p>
+                <p><a href=""><i class="fa-brands fa-facebook"></i></a></p>
+                <p><a href=""><i class="fa-brands fa-instagram"></i></a></p>
+                <p></p>
+                <p></p>
+            </div>
+
             <div className='MainHero'>
                 <div className='allTexts'>
                     <div className="texts">
