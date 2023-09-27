@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*::selection {
+    color: aqua;
+    background-color: rgb(0, 52, 52);
+}
+
+.ResumeMainDiv {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(0, 54, 36);
+    color: white;
+    padding: 100px;
+    letter-spacing: 2px;
+}
+
+.nameAndAddress {
+    padding: 50px;
+    margin-left: 280px;
+    max-width: 800px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nameAndAddress h4 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.nameAndAddress:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.meAndmyIMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myimg {
+    height: 500px;
+    width: 500px;
+    background-image: url('../img/rsdlogo.png');
+    background-size: cover;
+    margin: 80px;
+    transition: 0.5s;
+}
+
+.SkillsAndOthers {
+    display: flex;
+}
+
+.Skills, .Projects {
+    width: 50%;
+}
+
+.Skills, .Projects, .myLanguages {
+    padding: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Skills:hover, .Projects:hover, .myLanguages:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -3,15 +3,20 @@ import './Resume.css';
 
 const Resume = () => {
   return (
-    <div>
-        <div className='nameAndAddress'>
-            <h2 className='myName'>MD ABDUL AHAD RASHED</h2>
-            <p className='myProfession'>Front-end Developer</p>
-            <p className="address">Feni, Bangladesh | rsddesing3@gmai.com</p>
+    <div className='ResumeMainDiv'>
 
-            <div className='SomthingAboutMe'>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga facilis eius veniam, <code>repudiandae obcaecati dolor reprehenderit </code> dolores optio! Voluptas nihil nemo iure repellat! Suscipit consequatur ipsum amet praesentium voluptate placeat!</p>
+        
+
+            <div className='nameAndAddress text-center'>
+
+                    <h4>About me:</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga facilis eius veniam, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga facilis eius veniam,   <code>repudiandae obcaecati dolor reprehenderit  </code> dolores optio! Voluptas nihil nemo iure repellat! Suscipit consequatur ipsum amet praesentium voluptate placeat!</p>
+
             </div>
+            
+                
+           
+        
 
             <div className='SkillsAndOthers'>
 
@@ -22,6 +27,23 @@ const Resume = () => {
                         <li><b>Comportble: </b>Express.js, MongoDB, Next.js, Node.js, TypeScript.js</li>
                         <li><b>Tools: </b>Github, VSCode, Chrome Dev Tools, Figma</li>
                         <li><b>Extra: </b>Video Editing(PremierePro), Animation(AfterEffects), Photoshop, Adobe illastrator</li>
+                    </ul>
+                </div>
+
+                <div className="Projects">
+                    <h4>Projects:</h4>
+                    <ul>
+                        <h5>EasyQuran.com <span>Github Link</span></h5> 
+                        <li>Best Probjec i create all time, send user a big enterpace for anything, so be careull</li>
+                        <li>send user a big enterpace for anything, so be careullBest Probjec i create all time</li>
+                        <li>send user a big enterpace for anything, so be careullBest Probjec i create all time</li>
+                    </ul>
+
+                    <ul>
+                        <h5>QawmiAducation.com<span>Github Link</span></h5> 
+                        <li>Best Probjec i create all time, send user a big enterpace for anything, so be careull</li>
+                        <li>send user a big enterpace for anything, so be careullBest Probjec i create all time</li>
+                        <li>send user a big enterpace for anything, so be careullBest Probjec i create all time</li>
                     </ul>
                 </div>
 
@@ -36,7 +58,7 @@ const Resume = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        
     </div>
   )
 }
